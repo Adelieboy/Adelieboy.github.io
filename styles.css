@@ -39,7 +39,7 @@ body{
 
 }
 
-.button1{
+.twitterButton{
 
     background: #2f2f2f;
     border: none;
@@ -47,21 +47,59 @@ body{
     color: #eeeeff;
 
 }
-
-.button1:hover{
+.twitterButton:hover{
 
     color: #1a8cd8;
 
 }
-
-.button1:active{
+.twitterButton:active{
 
     color: #105a8b;
+
+}
+
+.gitButton{
+
+    background: #2f2f2f;
+    border: none;
+    outline: none;
+    color: #eeeeff;
+
+}
+.gitButton:hover{
+
+    color: #46954a;
+    
+    
+
+}
+.gitButton:active{
+
+    color: #224824;
+
+}
+
+
+.bannerBox{
+
+    background: #1ed860;
+    overflow: hidden;
+
+}
+.bannerBox a{
+
+    float: left;
+    color: #1a8cd8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 
 }
 
 ion-icon{
 
     font-size: 75px;
+    pointer-events: none;
 
 }
