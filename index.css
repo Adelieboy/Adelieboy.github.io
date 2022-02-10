@@ -1,8 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+body{
+
+    background: #2f2f2f;
+    color: #eeeeff;
+    text-align: center;
+
+}
+
+.smallerImage{
+
+    border-radius: 50px;
+    zoom: 0.3;
+    text-align: left;
+
+}
+
+.wordBox{
+
+    inline-size: 120px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
+
+}
+
+.container{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .break{
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+
+}
+
+.button1{
+
+    background: #2f2f2f;
+    border: none;
+    outline: none;
+    color: #eeeeff;
+
+}
+
+.button1:hover{
+
+    color: #1a8cd8;
+
+}
+
+.button1:active{
+
+    color: #105a8b;
+
+}
+
+ion-icon{
+
+    font-size: 75px;
 
 }
