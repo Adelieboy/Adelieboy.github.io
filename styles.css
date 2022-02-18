@@ -252,7 +252,7 @@ ion-icon{
 
 }
 
-@media (max-width:800px){
+@media (max-width:500px){
     .jImg{
         max-width: 90%;
     }
