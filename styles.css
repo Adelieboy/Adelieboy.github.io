@@ -116,13 +116,9 @@ body{
 .navBar{
 
     position: fixed;
-    top: 0;
     width: 100%;
-    margin-left: -3%;
     background: #1d1d1d;
-    font-family: 'Roboto', sans-serif;
     display: block;
-    margin: 0 auto;
     z-index: 5;
 
 }
