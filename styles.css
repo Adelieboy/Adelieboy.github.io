@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+*{
+
+    margin: 0px;
+
+}
+
+
 body{
 
     background: #2f2f2f;
@@ -105,21 +112,12 @@ body{
 
     position: fixed;
     top: 0;
-    width: 104%;
+    width: 100%;
     margin-left: -3%;
     background: #1d1d1d;
     font-family: 'Roboto', sans-serif;
-
-}
-.firstA{
-
-    float: left;
-    color: #eeeeff;
-    text-align: center;
-    padding: 23px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    margin-left: 2%;
+    display: block;
+    margin: 0 auto;
 
 }
 .navBar a{
@@ -130,7 +128,7 @@ body{
     padding: 23px 16px;
     text-decoration: none;
     font-size: 18px;
-    
+    user-select: none;
 
 }
 .navBar a:hover{
@@ -142,7 +140,7 @@ body{
 .navBar form{
 
     float: right;
-    margin-right: 4%;
+    margin-right: 0.5%;
     color: #eeeeff;
     text-align: center;
     text-decoration: none;
@@ -155,47 +153,27 @@ body{
     pointer-events: none;
 
 }
-.active{
+.navBar p{
+
+    float: left;
+    color: #eeeeff;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-size: 18px;
     background: #46954a;
+    user-select: none;
+
 }
 
+.banner{
 
-.bannerHome{
-
-    text-align: center;
-    background-image: url("Images/theLoomingCrag.png");
-    width: 105.4%;
+    object-fit: cover;
+    width: 100%;
     height: 450px;
-    margin-left: -5%;
-    margin-top: -1%;
-    background-position: center;
-    background-size: cover;
 
 }
-.bannerProjects{
 
-    text-align: center;
-    background-image: url("Images/cherryTreeCave.png");
-    width: 105.4%;
-    height: 450px;
-    margin-left: -5%;
-    margin-top: -1%;
-    background-position: center 0px 975px;
-    background-size: cover;
-
-}
-.bannerGallery{
-
-    text-align: center;
-    background-image: url("Images/artist\'sDreamRedux.png");
-    width: 105.4%;
-    height: 450px;
-    margin-left: -5%;
-    margin-top: -1%;
-    background-position: center;
-    background-size: cover;
-
-}
 
 .galleryContainer{
 
@@ -220,6 +198,14 @@ body{
 .inlineLink{
 
     color: #eeeeff;
+
+}
+
+hr{
+
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 
 }
 
