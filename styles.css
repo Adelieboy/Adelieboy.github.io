@@ -4,11 +4,17 @@
 
     margin: 0px;
 
+
+    
 }
 
 body{
 
     background: #2f2f2f;
+
+    background-image: linear-gradient(#2f2f2f, #1c1c1c);
+
+
     color: #eeeeff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +38,7 @@ body{
 
 .twitterButton{
 
-    background: #2f2f2f;
+    background: none;
     border: none;
     outline: none;
     color: #eeeeff;
@@ -53,7 +59,7 @@ body{
 
 .gitButton{
 
-    background: #2f2f2f;
+    background: none;
     border: none;
     outline: none;
     color: #eeeeff;
@@ -75,7 +81,7 @@ body{
 
 .kofiButton{
 
-    background: #1d1d1d;
+    background: none;
     border: none;
     outline: none;
     color: #eeeeff;
@@ -95,7 +101,7 @@ body{
 
 .itchButton{
 
-    background: #2f2f2f;
+    background: none;
     border: none;
     outline: none;
     color: #eeeeff;
@@ -174,6 +180,23 @@ body{
     width: 100%;
     height: 450px;
 
+    animation: startBlur 0.25s;
+
+}
+@keyframes startBlur{
+
+    0% {filter: blur(10px);}
+    10% {filter: blur(9px);}
+    20% {filter: blur(8px);}
+    30% {filter: blur(7px);}
+    40% {filter: blur(6px);}
+    50% {filter: blur(5px);}
+    60% {filter: blur(4px);}
+    70% {filter: blur(3px);}
+    80% {filter: blur(2px);}
+    90% {filter: blur(1px);}
+    100% {filter: blur(0px);}
+
 }
 
 .galleryContainer{
@@ -247,6 +270,10 @@ ion-icon{
     pointer-events: none;
 
 }
+
+
+
+
 
 @media (max-width:500px){
     .jImg{
