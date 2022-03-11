@@ -273,6 +273,8 @@ ion-icon{
 .specImg{
 
     height: auto;  
+    max-width: 80%;
+    min-width: 40%;
     margin: 1%;
     zoom: 0.55;
     border: 10px solid #bc7658;
@@ -333,6 +335,11 @@ ion-icon{
     100% {content:"=?9_|€<7 S9€[[_]1/-\я][+j#^";}
 }
 
+.mBreak{
+
+    padding-top: 0px;
+
+}
 
 
 @media (max-width:500px){
@@ -345,6 +352,28 @@ ion-icon{
 
     .specImg{
         max-width: 90%;
+    }
+
+    .mBreak{
+        padding-top: 70px;
+    }
+
+}
+
+@media (max-width:750px){
+    .jImg{
+        max-width: 90%;
+    }
+    .jImgNB{
+        max-width: 90%;
+    }
+
+    .specImg{
+        max-width: 90%;
+    }
+
+    .mBreak{
+        padding-top: 70px;
     }
 
 }
