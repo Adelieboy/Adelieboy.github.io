@@ -114,7 +114,47 @@ body{
 }
 .itchButton:active{
 
-    color: #b2413f;
+    color: #913534;
+
+}
+
+.instaButton{
+
+    background: none;
+    border: none;
+    outline: none;
+    color: #eeeeff;
+    transition: color 0.2s;
+
+}
+.instaButton:hover{
+
+    color: #e03496;
+
+}
+.instaButton:active{
+
+    color: #831d57;
+
+}
+
+.emailButton{
+
+    background: none;
+    border: none;
+    outline: none;
+    color: #eeeeff;
+    transition: color 0.2s;
+
+}
+.emailButton:hover{
+
+    color: #4d57e4;
+
+}
+.emailButton:active{
+
+    color: #593799;
 
 }
 
@@ -203,17 +243,15 @@ body{
     display: table;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    
-
+    max-width: 100%;
 
 }
 .galleryContainer img{
-    zoom: 0.3;
-    max-width: 100%;
+    
+    max-width: 90%;
     min-width: 40%;
     height: auto;  
-    border: 7px solid #777777;
+    border: 3px solid #777777;
     margin: 1%;
 }
 .galleryContainer img:hover{
@@ -273,10 +311,9 @@ ion-icon{
 .specImg{
 
     height: auto;  
-    max-width: 80%;
+    max-width: 65%;
     min-width: 40%;
     margin: 1%;
-    zoom: 0.55;
     border: 10px solid #bc7658;
     
 
@@ -284,7 +321,7 @@ ion-icon{
 
 .specLogo{
 
-    zoom: 0.05;
+    width: 5%;
     opacity: 30%;
     filter: grayscale(100%);
 
@@ -341,23 +378,10 @@ ion-icon{
 
 }
 
-
-@media (max-width:500px){
-    .jImg{
-        max-width: 90%;
+@media (min-width:750px) {
+    .galleryContainer img{
+        max-width: 40%;
     }
-    .jImgNB{
-        max-width: 90%;
-    }
-
-    .specImg{
-        max-width: 90%;
-    }
-
-    .mBreak{
-        padding-top: 70px;
-    }
-
 }
 
 @media (max-width:750px){

@@ -2,10 +2,12 @@
     a. Rebuild site with Mobile First in mind
     b. Figure out a way to test on mobile without pushing a commit?
 
-2. Figure out (and use) "embeded pages" or whatever it's called
+2. Fix for every browser
+
+3. Figure out (and use) "embeded pages" or whatever it's called
     By this I mean being able to click/tap on something, and rather than opening a new page, it opens a tab on top.
 
-3. Figure out (and use) more dynamic pieces of html.
+4. Figure out (and use) more dynamic pieces of html.
     e.g.
         'Three Lines' Button, that expands to show navBar pieces
         
