@@ -86,6 +86,7 @@ body{
     color: #eeeeff;
     transition: color 0.2s;
 
+
 }
 .kofiButton:hover{
 
@@ -399,5 +400,6 @@ ion-icon{
     .mBreak{
         padding-top: 70px;
     }
+
 
 }
