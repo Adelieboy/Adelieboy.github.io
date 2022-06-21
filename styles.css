@@ -315,21 +315,20 @@ ion-icon{
     max-width: 65%;
     min-width: 40%;
     margin: 1%;
-    border: 10px solid #bc7658;
-    
+    border: 10px solid #151515;
 
 }
 
 .specLogo{
 
-    width: 5%;
+    width: 7%;
     opacity: 30%;
     filter: grayscale(100%);
 
 }
 .specLogo:hover{
 
-    animation: 0.5s specHov;
+    animation: 0.2s specHov;
     animation-fill-mode: forwards;
 
 }
@@ -360,17 +359,18 @@ ion-icon{
 
 }
 @keyframes specTxtObf {
-    0% {content:  "Pя[]_|£<'][' S9&<[_]1^®][']";}
-    10% {content: "Gя9_|&©7 S|>3<µ141²!7j4[/23";}
-    20% {content: "J|?*_|€[7 S|*&([_]|_@1²l+`/";}
-    30% {content: ":|20_|3(+ S|°£<µ£/-2][†`hg+";}
-    40% {content: ">120_|3<+ S|D£[|_|1λ®1+j*a-";}
+    0% {content:  "Pя[]_|£<'][' S9&<[_]1^®][";}
+    10% {content: "Gя9_|&©7 S|>3<µ!7j4[";}
+    20% {content: "J|?*_|€[7 S|*&([_]|_@1²l";}
+    30% {content: ":|20_|3(+ S|°£<µ£/-2][†";}
+    40% {content: ">120_|3<+ S|D£[|_|1λ®1+";}
     50% {content: "8|?0_|£©'][' S|²3©µ1^|?l†°/";}
-    60% {content: "s®°_|€©† Sp&<|_|£∂|Z|†`/+91";}
-    70% {content: "#2ø_|£[† Sp£(µ£^|Z][†'/*&!2";}
-    80% {content: "%1²*_|£[+ S|²€©[_]1/-\|?|+'";}
-    90% {content: "(|2[]_|&©'][' S|>3<[_]1^2l'";}
-    100% {content:"=?9_|€<7 S9€[[_]1/-\я][+j#^";}
+    60% {content: "s®°_|€©† Sp&<|_|£∂|Z|";}
+    70% {content: "#2ø_|£[† Sp£(µ£^|Z][†'/*&";}
+    80% {content: "%1²*_|£[+ S|²€©[_]1/-\|?|'";}
+    90% {content: "(|2[]_|&©'][' S|>3<[_]1^2'";}
+    100% {content:"=?9_|€<7 S9€[[_]1/-\я][+j^";}
+
 }
 
 .mBreak{
@@ -400,6 +400,30 @@ ion-icon{
     .mBreak{
         padding-top: 70px;
     }
+
+
+
+
+    .navBar a{
+    
+        padding: 18px 4px;
+    
+    }
+    .navBar ion-icon{
+        font-size: 35px;
+        margin-top: 25%;
+        pointer-events: none;
+    
+    }
+    .navBar p{
+    
+        padding: 18px 4px;
+    
+    }
+    .specTxt{
+        padding: 18px 4px;
+    }
+
 
 
 }
