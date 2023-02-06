@@ -139,6 +139,26 @@ body{
 
 }
 
+.tumblrButton{
+
+    background: none;
+    border: none;
+    outline: none;
+    color: #eeeeff;
+    transition: color 0.2s;
+
+}
+.tumblrButton:hover{
+
+    color: #4e3fd3;
+
+}
+.tumblrButton:active{
+
+    color: #312883;
+
+}
+
 .emailButton{
 
     background: none;
