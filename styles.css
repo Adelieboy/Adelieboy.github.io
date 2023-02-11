@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted&display=swap');
 
 *{
 
     margin: 0px;
 
-
+    scroll-behavior: smooth;
     
 }
 
@@ -12,7 +13,7 @@ body{
 
     background: #2f2f2f;
 
-    background: linear-gradient(#2f2f2f, #1c1c1c) no-repeat center center fixed;
+    background: linear-gradient(#2f2f2f, #151515) no-repeat center center fixed;
 
     color: #eeeeff;
     text-align: center;
@@ -40,7 +41,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -61,7 +62,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -83,7 +84,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -104,7 +105,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -124,7 +125,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -144,7 +145,7 @@ body{
     background: none;
     border: none;
     outline: none;
-    color: #eeeeff;
+    color: #eeffff;
     transition: color 0.2s;
 
 }
@@ -159,25 +160,6 @@ body{
 
 }
 
-.emailButton{
-
-    background: none;
-    border: none;
-    outline: none;
-    color: #eeeeff;
-    transition: color 0.2s;
-
-}
-.emailButton:hover{
-
-    color: #4d57e4;
-
-}
-.emailButton:active{
-
-    color: #593799;
-
-}
 
 .navBar{
 
@@ -399,6 +381,82 @@ ion-icon{
 
 }
 
+.projectContainer{
+
+    display:flex;
+    align-items:start;
+    justify-content:center;
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+}
+
+.projectContainer section{
+
+    background: linear-gradient(#3f3f3f, #2d2d2d) no-repeat center center fixed; 
+    border-color: #46954a; 
+    border-style:solid; 
+
+    min-height: 220px;
+    height: auto; 
+    width: 50%;
+    
+
+    margin: 1%;
+    
+    transition: 0.1s;
+
+}
+
+
+.projectContainer section:hover{
+    transform: scale(110%);
+}
+
+
+.specPanel a{
+
+    user-select: none;
+    color: #eeffff;
+    padding: 10px;
+    background: rgb(49, 116, 107);
+    font-size: 25pt;
+    font-family:monospace;
+    border: turquoise solid 5px;
+    margin: 10px;
+
+}
+
+.centeredList{
+
+    text-align: center;
+
+}
+
+.centeredList ol{
+
+    display: inline-block; text-align: left;
+
+}
+
+.centeredList ul{
+
+    display: inline-block; text-align: left;
+    
+}
+
+.redacted{
+
+    font-family: Redacted;
+    pointer-events: none;
+    user-select: none;
+
+}
+
+
+
 @media (min-width:750px) {
     .galleryContainer img{
         max-width: 40%;
@@ -444,6 +502,21 @@ ion-icon{
         padding: 18px 4px;
     }
 
+    .projectContainer{
+        display:grid;
+
+    }
+    .projectContainer section{
+        min-width: 90%;
+        align-self: center;
+        justify-self: center;
+    }
+
+
+
+
 
 
 }
+
+

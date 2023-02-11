@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSP - Mechanics</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/Images/Project Specularity/logoPartial2_Col.ico">
+</head>
+<body style="background-image: linear-gradient(#020305, #131416);">
+    <!-- This is the navigation bar -->
+    <div class="navBar">
+        <a href="/index.html" class="active">Home</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="https://ko-fi.com/mightyspacepotato" target="_blank">Commisions</a>
+    </div>
+
+    
+
+
+    <div class="break"></div><div class="break"></div><div class="break"></div>
+    <!--Content Here-->   
+    <div class="specPanel">
+        <a href="/tspTTRPG.html">Glossary</a>
+    </div><div class="break"></div><br>
+
+    <h1>Mechanics</h1><hr width="60%">
+    <h3 id="Contents">Contents</h3><hr width="20%" style="margin-left: 40%;">
+        <a href="#Shifting" style="color: #eeffff;"><b>Room Shifting</b></a><br><br>
+        <a href="#Clearance" style="color: #eeffff;"><b>Clearance Levels</b></a><br><br>
+        <a href="#Rolls" style="color: #eeffff;"><b>Dice Rolls</b></a><br><br>
+        <a href="#Items" style="color: #eeffff;"><b>Items</b></a><br><br>
+        <a href="#Information" style="color: #eeffff;"><b>Information</b></a><br><br>
+        <a href="#Shards" style="color: #eeffff;"><b>Shards</b></a><br><br>
+        <a href="#SAIA" style="color: #eeffff;"><b>S.A.I.A.</b></a><br><br>
+
+        <!-- <a href="#" style="color: #eeffff;"><b></b></a><br><br> -->
+    <hr width="20%" style="margin-left: 40%;">
+
+
+    <section>
+    <h2 id="Shifting">Room Shifting</h2><br>
+    <p>Within the facility, a security measure ensures the rooms and hallways are constantly shifting, making it nearly impossible to escape.<br>
+    By default, this system works by the DM, either at chosen sections of gameplay, or at timed intervals, shuffling a series of numbered rooms to see what rooms are connected.<br>
+    The DM can also chose to shift rooms on their own, to give players a helping hand on finding certain information or items, or to lead them towards further confrontation.</p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <section>
+    <h2 id="Clearance">Clearance Levels</h2><br>
+    <p>Every employee or visitor of <b class="redacted">Project Specularity and it's front, </b>Clarity Shipping, are required to have an ID card at all times.<br>
+    These ID cards are more than just a helpful identifier, but also give physical access to certain rooms and information, depending on the user's <b>Clearance Level</b>.<br>
+    This level can be found in the bottom left corner of the picture on the ID card, and are ranked as follows.</p><br>
+    <div class="centeredList">
+        <ol style="background-color: #3f3f3f; padding-right: 0.9%; padding-top: 10px; padding-bottom: 10px; border: turquoise solid;">
+            <li style="color:turquoise;"><b>S</b>+</li>
+            <li style="color:lightgreen;"><b>S</b></li>
+            <li style="color:gold;"><b>A</b></li>
+            <li style="color:orangered;"><b>B</b></li>
+            <li style="color:red;"><b>C</b></li>
+            <li style="color:lightgrey;"><b>D</b></li>
+        </ol>
+    </div><br>
+    If a character's <b>Clearance</b> exceeds or is equivelant to that of what they are trying to access, they are granted access (excluding particular circumstances).<br>
+    If the character's <b>Clearance</b> does <i>not</i>, then they are denied access.<br><br>
+    <h3>Leveling Up</h3><br>
+    <p>A character's <b>Clearance</b> can level up in a few ways:</p><br>
+    <div class="centeredList">
+        <ul>
+            <li>Finding and merging a higher clearance card with their own.</li>
+            <li>Finding and using a clearance terminal containing a higher clearance.</li>
+            <li class="redacted">Opening a higher clearance room from the inside.</li>
+        </ul>
+    </div><br>
+    <p>Unless otherwise discussed with the DM during <a href="characterCreation.html" class="inlineLink">Character Creation</a>, all players start at <b>Clearance Level</b> <b style="color: grey;">D</b></p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <section>
+    <h2 id="Rolls">Dice Rolls</h2><br>
+    <p>Rolls work much like DnD, in that the players (or DM) roll a d20, attempting an equal or higher number than that given by the DM.<br>
+    Of course, the DM can roll for this clear number, make one up, or use a provided number, and can obviously decide whether or not to reveal this number to the players.<br>
+    Rolls are also almost always accompanied by a stat or skill (see <a href="characterCreation.html" class="inlineLink">Character Creation</a> for a list of stats and skills) that modify the final value.<br>
+    With the exception of Sanity and Despair, any positive stat value increases the roll by that amount, and any negative value reduces the roll value.<br></p><br>
+    <details><summary>Equation</summary><br>
+    <q><b>x</b> = <b>R</b> + <b>S</b></q><br><br>
+    <b>x</b> = Final Roll Value<br>
+    <b>R</b> = Initial Roll Value<br>
+    <b>S</b> = Stat Value</details><br>
+
+    <h3>Sanity and Despair</h3><br>
+    <p>When rolling <b>Sanity</b>, it's final value is decremented by the inverse of the character's <b>Despair</b> value.<br>
+    For Example, if the player rolls a <b>16</b>, and their <b>Despair</b> is <b>+3</b>, their roll is reduced to <b>13</b>.</p><br>
+
+    <details><summary>Equation</summary><br>
+    <q><b>x</b> = <b>R</b> + (<b>D</b> * -1)</q><br><br>
+    <b>x</b> = Final Roll Value<br>
+    <b>R</b> = Initial Roll Value<br>
+    <b>D</b> = Despair Value</details><br>
+
+    <hr width="50%" style="margin-left: 25%;"></section>
+    
+    <section>
+    <h2 id="Items">Items</h2><br>
+    <p>Throughout the facility are many items and tools that may help or hinder the players. Some are simple tools such as construction equipment or an infra-red sensor.<br>
+    However some are more complex, and require rolls or certain other items to be used, such as a <b class="redacted">Shard Projector</b> or a <b class="redacted">Speclura Device</b>.<br>
+    Below is a list of items, their stats, and possible <a href="locations.html" class="inlineLink">locations</a> they're found in.<br><br></p>
+    <details style="pointer-events: none; opacity: 50%;"><summary>Items</summary>
+        <div class="centeredList">
+            <ul>
+                <li><b>Speclura Device</b><br>
+                <p>This phone-like device allows minimal use of some low-class <a href="#Shards" class="inlineLink"><b>Shards</b></a>, as well as having a built-in ID card and general phone functionality</p></li>
+                <details><summary>Locations</summary>
+                <div class="centeredList">
+                    <ul>
+                        <li>Some <b>Emergency Isolation Room</b>s</li>
+                    </ul>
+                </div></details>
+
+                <li><b>Shard Projector</b><br>
+                <p>This railgun-esc device unlocks the full usage of any class of <a href="#Shards" class="inlineLink"><b>Shard</b></a>, as well as allowing faster swapping of them.</p></li>
+                
+
+                <li><b>Shift Reconfigurator</b><br>
+                <p>This device forces the shift-points to reconfigure to the desired placements, allowing the players to counteract the facility's secure shifting.<br>
+                This comes at a positive and negative. On one hand, the players can navigate the facility <i>much</i> easier. On the other hand, it also allows the dangers to do the same.</p></li>
+                  
+                
+
+            </ul>
+        </div>
+    </details>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <section>
+    <h2 id="Information">Information</h2><br>
+    <p></p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <section>
+    <h2 id="Shards">Shards</h2><br>
+    <p class="redacted">Shards is a term given to Speclura Panes, materials containing data, programs, and unique functionality.<br>
+    There are two differing types of Shards, <b>Regular Shards</b> and <b>Aberrant Shards</b>, the latter of which has more powerful and unique abilities or functions.</p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <section>
+    <h2 id="SAIA">S.A.I.A.</h2><br>
+    <p class="redacted">S.A.I.A is the facility's <b>Speclura Artificial Intelligence Assistant</b>, an AI that runs the facility.<br>
+    Well, until it lost it's clearance level and memory archives. Now it acts as a vague guide for the players in the facility, trying to decipher what happened, and restore it's control.<br>
+    </p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+
+    <!--    
+    <section>
+    <h2 id=""></h2><br>
+    <p></p>
+    <hr width="50%" style="margin-left: 25%;"></section>
+    -->
+    <div class="break"></div>
+
+
+    <!-- End of the Page -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html> 
