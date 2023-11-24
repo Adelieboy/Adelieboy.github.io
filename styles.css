@@ -429,6 +429,19 @@ ion-icon{
 
 }
 
+.gildedPanel a{
+
+    user-select: none;
+    color: #eeffff;
+    padding: 10px;
+    background: rgb(185, 187, 97);
+    font-size: 25pt;
+    font-family:monospace;
+    border: rgb(233, 206, 54) solid 5px;
+    margin: 10px;
+
+}
+
 .centeredList{
 
     text-align: center;
