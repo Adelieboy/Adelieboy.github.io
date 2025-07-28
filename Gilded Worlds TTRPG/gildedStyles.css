@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted&display=swap');
+
+/* Main Body Stuff */
+
+*{
+
+    margin: 0px;
+
+    scroll-behavior: smooth;
+
+    
+}
+
+html{
+    background: linear-gradient(#3f3e3a, #252522) no-repeat fixed;
+
+
+}
+
+body{
+
+    background: #2f2f2f;
+
+    background: linear-gradient(#3f3e3a, #252522) no-repeat fixed;
+
+    color: #eeeeff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 100%;
+
+}
+
+.container{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner{
+
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+
+    animation: startBlur 0.25s;
+
+}
+@keyframes startBlur{
+
+    0% {filter: blur(10px);}
+    10% {filter: blur(9px);}
+    20% {filter: blur(8px);}
+    30% {filter: blur(7px);}
+    40% {filter: blur(6px);}
+    50% {filter: blur(5px);}
+    60% {filter: blur(4px);}
+    70% {filter: blur(3px);}
+    80% {filter: blur(2px);}
+    90% {filter: blur(1px);}
+    100% {filter: blur(0px);}
+
+}
+
+
+/* Main - Paragraphs */
+/* FFD75E */
+
+
+
+.infoDiv{
+
+    color: #eeeeff;
+
+}
+.infoDiv h1{
+
+
+    background-image: linear-gradient(#FFD75E, #ffec9a);
+    color: transparent;
+    background-clip: text;
+    padding: 1.5%;
+
+}
+.infoDiv h2{
+
+    color: #fff5d5;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+
+}
+.infoDiv small{
+    color: #beb597;
+}
+
+
+
+
+/* Navbars */
+
+.navBar{
+
+    position: fixed;
+    width: 100%;
+    background: #1d1d1d;
+    display: block;
+    z-index: 5;
+
+}
+.navBar a{
+
+    float: left;
+    color: #eeeeff;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    user-select: none;
+
+}
+.navBar a:hover{
+    background: #353432;
+}
+.navBar a:active{
+    background: #958946;
+}
+.navBar form{
+
+    float: right;
+    padding-right: 0.5%;
+    color: #eeeeff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.navBar ion-icon{
+    font-size: 40px;
+    margin-top: 25%;
+    pointer-events: none;
+
+}
+.navBar p{
+
+    float: left;
+    color: #131314;
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    background: #beab56;
+    user-select: none;
+
+}
+
+/* Breaks */
+
+.mBreak{
+
+    padding-top: 0px;
+
+}
+
+.break{
+
+    padding-top: 50px;
+
+}
+
+
+/* Logos */
+
+

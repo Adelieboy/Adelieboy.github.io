@@ -86,6 +86,28 @@ body{
 
 }
 
+.gildButton{
+
+    background: none;
+    border: none;
+    outline: none;
+    color: #eeffff;
+    transition: color 0.2s;
+
+}
+.gildButton:hover{
+
+    color: #FFD75E;
+    
+    
+
+}
+.gildButton:active{
+
+    color: #e2b633;
+
+}
+
 .kofiButton{
 
     background: none;
@@ -333,6 +355,14 @@ ion-icon{
 
 }
 
+.gildedLogo{
+    width: 14%;
+    opacity: 100%;
+    color: #FFD75E;
+}
+
+
+
 .specLogo{
 
     width: 7%;
@@ -405,7 +435,6 @@ ion-icon{
 
 
 }
-
 .projectContainer section{
 
     background: linear-gradient(#3f3f3f, #2d2d2d) no-repeat center center; 
@@ -424,9 +453,47 @@ ion-icon{
 
 }
 
-
 .projectContainer section:hover{
     transform: scale(110%);
+}
+
+
+.oldContainer{
+
+    display:flex;
+    align-items:start;
+    justify-content:center;
+    max-width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+
+
+}
+.oldContainer section{
+
+    font-size: 8pt;
+    line-height: 8pt;
+    color: #b4b4b9;
+
+    background: linear-gradient(#3f3f3f, #2d2d2d) no-repeat center center; 
+    border-color: #4e7e60; 
+    border-style:solid; 
+    box-shadow: 0 0 5px 4px #31523d;
+
+    min-height: 110px;
+    height: auto; 
+    width: 50%;
+    
+
+    margin: 1%;
+    
+    transition: 0.1s;
+
+}
+
+.oldContainer section:hover{
+    transform: scale(105%);
 }
 
 
@@ -451,7 +518,7 @@ ion-icon{
     background: rgb(185, 187, 97);
     font-size: 25pt;
     font-family:monospace;
-    border: rgb(233, 206, 54) solid 5px;
+    border: #e9ce36 solid 5px;
     margin: 10px;
 
 }
