@@ -68,17 +68,34 @@ body{
 /* Main - Paragraphs */
 /* FFD75E */
 
-
+.gilded{
+    background-image: linear-gradient(to bottom,#FFD75E, #fff2b7);
+    width: 12%;
+    place-self: center;
+    color: transparent;
+    background-clip: text;
+    padding: 0.3%;
+    margin-top: -0.25%;
+    margin-bottom: -0.25%;
+}
 
 .infoDiv{
+    
 
-    color: #eeeeff;
+    width: fit-content;
+    place-self: center;
+    color: #fffae5;
+    line-height: 15pt;
+    align-items: center;
+    flex: content;
+    text-align: center;
+    display: block;
 
 }
 .infoDiv h1{
 
 
-    background-image: linear-gradient(#FFD75E, #ffec9a);
+    background-image: linear-gradient(#FFD75E, #fff2b7) no-repeat fixed;
     color: transparent;
     background-clip: text;
     padding: 1.5%;
@@ -86,14 +103,55 @@ body{
 }
 .infoDiv h2{
 
+    scroll-margin-top: 65px;
+
     color: #fff5d5;
     padding-top: 2%;
     padding-bottom: 0.5%;
+    text-decoration: underline;
 
 }
-.infoDiv small{
-    color: #beb597;
+.infoDiv h3{
+    text-decoration: underline dotted;
 }
+.infoDiv small{
+    color: inherit;
+    filter: brightness(75%);
+}
+.infoDiv p{
+    padding-bottom: 1%;
+    padding-top: 0.2%;
+
+}
+.infoDiv sub{
+    line-height: 10pt;
+    color: #f0ebd8;
+}
+.infoDiv ul{
+    list-style-position:inside;
+    list-style-type:none;
+
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1414132c;
+    width: fit-content;
+    place-self: center;
+
+}
+.infoDiv li{
+    margin-left: -2.5%;
+}
+.infoDiv div{
+    width: fit-content;
+    max-width: 95%;
+    place-self: center;
+
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1414130c;
+}
+
+
 
 
 
@@ -107,6 +165,9 @@ body{
     background: #1d1d1d;
     display: block;
     z-index: 5;
+    border-bottom: #ffe081;
+    border-bottom-style: ridge;
+    border-bottom-width: 5px;
 
 }
 .navBar a{
@@ -150,7 +211,7 @@ body{
     padding: 23px 16px;
     text-decoration: none;
     font-size: 18px;
-    background: #beab56;
+    background: #d6c162;
     user-select: none;
 
 }
